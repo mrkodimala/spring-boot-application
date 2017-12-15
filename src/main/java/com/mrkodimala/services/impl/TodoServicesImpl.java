@@ -20,7 +20,7 @@ public class TodoServicesImpl implements TodoServices {
         Todo todo = new Todo();
         todo.setTodoName(name);
         todo.setCreateTime(new Date());
-        todo.setDeliveryTime(deliveryDate);
+        todo.setDeliveryTime(new Date());
         todosRepository.insert(todo);
     }
 

@@ -8,13 +8,13 @@ import java.util.Date;
 public class CommonUtils {
 
     public static Date getDateFromString(String dateString){
-
-        DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
-        try {
-            return dateFormat.parse(dateString);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
         return null;
+//        DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+//        try {
+//            return dateFormat.parse(dateString);
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+//        return null;
     }
 }
